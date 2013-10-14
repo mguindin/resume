@@ -1,4 +1,4 @@
-resume
+Resume
 ======
 
-Resume / CV
+My resume (I know, real original)
