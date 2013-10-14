@@ -1,16 +1,4 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Medium Length Professional CV
-% LaTeX Template
-% Version 2.1 (10/13/13)
-%
-% This template has been downloaded from:
-% http://www.LaTeXTemplates.com
-%
-% Original author:
-% Trey Hunner (http://www.treyhunner.com/)
-% Modified by:
-% Matt Guindin (http://matt.guindin.com/)
-%
 % Important note:
 % This template requires the resume.cls file to be in the same directory as the
 % .tex file. The resume.cls file provides the resume style used for structuring the
@@ -26,9 +14,9 @@
 
 \usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
 
-\name{Matthew Guindin} % Your name
-\address{1365 York Ave. \\ Apt 15H \\ New York, NY 10021} % Your address
-\address{(718)~$\cdot$~938~$\cdot$~6424 \\ matt@guindin.com} % Your phone number and email
+\name{Matthew Guindin}
+\address{1365 York Ave. \\ Apt 15H \\ New York, NY 10021} 
+\address{(718)~$\cdot$~938~$\cdot$~6424 \\ matt@guindin.com}
 
 \begin{document}
 
@@ -54,13 +42,12 @@ Recipient of McMullen Dean Scholarship \\
 
 \begin{rSection}{Experience}
 
-\begin{rSubsection}{Sailthru, Inc}{November, 2011 - Present}{Developer}{New York, NY}
-\item \textbf{\textit{Query}} Fleshed out query tool for segmenting clients' profiles (users) using a variety of criteria based off of client-submitted as well as Sailthru-derived data. I also ported the PHP variant into more performant Java while maintaining all existing functionality and adding new features.
-\item \textbf{\textit{Campaign Generation}} Implemented many performance and feature improvements to campaign generation code. I am also in the process of porting over the older single-threaded PHP code to multithreaded Java using the Java version of Query code that I created.
+\begin{rSubsection}{Sailthru}{November, 2011 - Present}{Developer}{New York, NY}
+\item \textbf{\textit{Query}} Fleshed out query tool for segmenting clients' profiles (users) using a variety of criteria based off of client-submitted as well as Sailthru-derived data. I also ported the original PHP variant into more a efficient Java version while maintaining all existing functionality and adding new features.
+\item \textbf{\textit{Campaign Generation}} Implemented many performance and feature improvements to campaign generation code.  Using the Java Query code I developed to convert old PHP version into a managed Java process.
 \item \textbf{\textit{Campaign Statistics}} Improved legacy campaign statistics performance by up to 70\% by investigating and refactoring unnecessary data movement and utilization. Designed and coordinated completely refactoring the old job-oriented statistics process into 'real-time' event-oriented statistics collection eliminating a previously unsightly and painful delay between campaign sending and initial statistics calculations.
-
 \item \textbf{\textit{Development Sandbox}} Created one-line development environment creation/instantiation using Vagrant, Chef, and custom REST APIs as well as an automated backend database sanitization system to get new developers coding within an hour of getting access to Sailthru repos and facilities.
-\item \textbf{\textit{Dev-Ops}} Part of my role within Sailthru involves investigating and planning software and system architecture, developing a wide variety of internal tools (like the Sandbox above), as well as performing occasional spot maintenance and performance analysis of our existing infrastructure.
+\item \textbf{\textit{Dev-Ops}} Part of my role within Sailthru involves investigating and planning software and system architecture, developing a wide variety of internal tools (like the sandbox above), as well as performing occasional spot maintenance and performance analysis of our existing infrastructure.
 \end{rSubsection}
 
 %------------------------------------------------
@@ -97,15 +84,30 @@ Tools & Git, Amazon Web Services, IntelliJ, \\
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
-%	EXAMPLE SECTION
+%   VOLUNTEER SECTION	
 %----------------------------------------------------------------------------------------
 
-%\begin{rSection}{Section Name}
-
-%Section content\ldots
-
-%\end{rSection}
+\begin{rSection}{Volunteer Roles}
+    \begin{description}
+    \item[FIRST Robotics NYC Regional] Fall, 2009 - Spring, 2011
+    \item[FIRST Robotics Team 358, Carle Place High School] \textit{Mentor} - Fall, 2009 - Spring, 2011
+    \item[FIRST Robotics Team 2068, Osbourn Park High School] \textit{Mentor} - Fall, 2008 - Spring, 2009
+    \end{description}
+\end{rSection}
 
 %----------------------------------------------------------------------------------------
 
+%----------------------------------------------------------------------------------------
+%   HONORS AND AWARDS SECTION	
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Honors \& Awards}
+\begin{tabular}{ @{} >{}l @{\hspace{18ex}} l }
+Eagle Scout \\ 
+Lockheed Martin Engineering Leadership Development Program Graduate
+\end{tabular}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
 \end{document}
