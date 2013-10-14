@@ -13,10 +13,14 @@
 \documentclass{resume} % Use the custom resume.cls style
 
 \usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+% Let's get some links going
 \usepackage{hyperref}
-
+\hypersetup{
+	colorlinks=true,
+	urlcolor=cyan
+}
 \name{Matthew Guindin}
-\address{matt@guindin.com \\ \underline{\href{https://github.com/mguindin}{Github: mguindin}}}
+\address{\href{mailto:matt@guindin.com}{matt@guindin.com} \\ \href{https://github.com/mguindin}{Github: mguindin}}
 \address{(347)~$\cdot$~878~$\cdot$~6424 \\ New York, NY}
 
 \begin{document}
@@ -59,7 +63,7 @@ Recipient of McMullen Dean Scholarship \\
 \item \textbf{\textit{Focused Acoustics Naval Tactical Array (FANTA)}} Project was a result of winning internal R\&D money based off of a white paper that I worked on with a few other young employees. Worked with 3 other young engineers to simulate, build, and test prototype for novel sonar device. Performed simulations using MATLAB and helped fabricate prototype. Project was performed during off-hours from ARCI.
 \item \textbf{\textit{Engineering Leadership Development Program}} Selected as part of a group of young engineers to build leadership abilities through additional education and project work.
     \begin{description}
-    \item[SHip Enterprise Layered Defense (SHIELD)] Lead Software Engineer
+    \item[SHIp Enterprise Layered Defense (SHIELD)] Lead Software Engineer
     \item[RMMV Mock Proposal] Responsible for hardware design and estimate as well as proposal organization
     \end{description}
 \end{rSubsection}
@@ -73,11 +77,12 @@ Recipient of McMullen Dean Scholarship \\
 \begin{rSection}{Technical Strengths}
 
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-Languages & Java, PHP, Python, Javascript, MATLAB, C \\
+Languages & Java, PHP, Python, Javascript, MATLAB, \\
+& C, Bash/zsh scripting \\
 Operating Systems & Linux (Ubuntu, RHEL, CentOS), Mac OS X, Windows \\
 Protocols \& APIs & XML, JSON, REST \\
 Databases \& Caches & MongoDB, Redis, PostgreSQL \\
-Tools & Git, Amazon Web Services, IntelliJ, \\ 
+Tools & Git, Amazon Web Services, Intellij IDEA, \\ 
 & vim, Netbeans, Agile Software Development, \\ 
 & DOORS, VirtualBox, Vagrant
 \end{tabular}
@@ -99,13 +104,14 @@ Tools & Git, Amazon Web Services, IntelliJ, \\
 %----------------------------------------------------------------------------------------
 
 %----------------------------------------------------------------------------------------
-%   HONORS AND AWARDS SECTION	
+%   HONORS, AWARDS, AND CERTIFICATIONS SECTION	
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{Honors \& Awards}
+\begin{rSection}{Honors, Awards, \& Certifications}
 \begin{tabular}{ @{} >{}l @{\hspace{18ex}} l }
-Eagle Scout \\ 
-Lockheed Martin Engineering Leadership Development Program Graduate
+Lockheed Martin Engineering Leadership Development Program Graduate & 2011\\
+Six Sigma Green Belt & 2010 \\
+Eagle Scout & 2003
 \end{tabular}
 
 \end{rSection}
