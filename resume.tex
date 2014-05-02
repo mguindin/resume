@@ -20,7 +20,7 @@
 	urlcolor=blue
 }
 \name{Matthew Guindin}
-\address{\href{mailto:matt@guindin.com}{matt@guindin.com} \\ \href{https://github.com/mguindin}{Github: mguindin}}
+\address{\href{mailto:m@guindin.com}{m@guindin.com} \\ \href{https://github.com/mguindin}{Github: mguindin}}
 \address{(347)~$\cdot$~878~$\cdot$~6424 \\ New York, NY}
 
 \begin{document}
@@ -45,23 +45,28 @@ B.S. in Electrical \& Computer Engineering \\
 
 \begin{rSection}{Experience}
 
-\begin{rSubsection}{Sailthru}{November, 2011 - Present}{Developer}{New York, NY}
-\item \textbf{Backend Development} Most of my time at Sailthru has been spent as a member of the Backend development team which involves improving our custom emailing software, templating software, job processing, and user data querying tools.  This work has been done in PHP, Java, and uses MongoDB and HBase for data storage.  Select projects included below:
-\item \textbf{\textit{HBase Integration}} Introduced internal service API to access an important 500 million+ document MongoDB collection and converted the collection to HBase to take advantage of cheaper hardware, improved query performance, and data storage decoupling through the service API.
-\item \textbf{\textit{Campaign Statistics}} Improved legacy campaign statistics performance by up to 70\% by investigating and refactoring unnecessary data movement and utilization. Designed and coordinated completely refactoring the old job-oriented statistics process into 'real-time' event-oriented statistics collection, eliminating a previously unsightly and painful delay between campaign sending and campaign statistics calculations.
-\item \textbf{\textit{Query}} Fleshed out query tool for segmenting clients' profiles (users) using a variety of criteria based off of client-submitted as well as Sailthru-derived data. I also ported the original PHP variant into more a efficient Java version while maintaining all existing functionality and adding new features.
-\item \textbf{\textit{Development Sandbox}} Created one-line development environment creation/instantiation using Vagrant, Chef, and custom REST APIs as well as an automated backend database sanitization system to get new developers coding within an hour of getting access to Sailthru repos and facilities.
-\item \textbf{\textit{Dev-Ops}} Part of my role within Sailthru involves investigating and planning software and system architecture, developing a wide variety of internal tools (like the sandbox above), as well as performing occasional spot maintenance and performance analysis of our existing infrastructure.
-\end{rSubsection}
+    \begin{rSubsection}{HookLogic}{March, 2014 - Present}{Data Platform Engineer}{New York, NY}
+    \item \textbf{\textit{HBase Integration}} Incorporating HBase into data workflow with Hive and Hadoop for realtime querying and journaled data storage.
+    \end{rSubsection}
+%-----------------------------------------------
+
+    \begin{rSubsection}{Sailthru}{November, 2011 - February, 2014}{Developer}{New York, NY}
+    \item \textbf{Backend Development} Most of my time at Sailthru has been spent as a member of the Backend development team which involves improving our custom emailing software, templating software, job processing, and user data querying tools.  This work has been done in PHP, Java, and uses MongoDB and HBase for data storage.  Select projects included below:
+    \item \textbf{\textit{HBase Integration}} Introduced internal service API to access an important 500 million+ document MongoDB collection and converted the collection to HBase to take advantage of cheaper hardware, improved query performance, and data storage decoupling through the service API.
+    \item \textbf{\textit{Campaign Statistics}} Improved legacy campaign statistics performance by up to 70\% by investigating and refactoring unnecessary data movement and utilization. Designed and coordinated completely refactoring the old job-oriented statistics process into 'real-time' event-oriented statistics collection, eliminating a previously unsightly and painful delay between campaign sending and campaign statistics calculations.
+    \item \textbf{\textit{Query}} Fleshed out query tool for segmenting clients' profiles (users) using a variety of criteria based off of client-submitted as well as Sailthru-derived data. I also ported the original PHP variant into more a efficient Java version while maintaining all existing functionality and adding new features.
+    \item \textbf{\textit{Development Sandbox}} Created one-line development environment creation/instantiation using Vagrant, Chef, and custom REST APIs as well as an automated backend database sanitization system to get new developers coding within an hour of getting access to Sailthru repos and facilities.
+    \item \textbf{\textit{Dev-Ops}} Part of my role within Sailthru involves investigating and planning software and system architecture, developing a wide variety of internal tools (like the sandbox above), as well as performing occasional spot maintenance and performance analysis of our existing infrastructure.
+    \end{rSubsection}
 
 %------------------------------------------------
 
-\begin{rSubsection}{Lockheed Martin}{June, 2008 - November, 2011}{Associate Engineer}{Mitchel Field, NY / Manassas, VA}
-\item \textbf{\textit{Information Assurance}} Helped incorporate DoD information security requirements into next-generation submarine navigator.  Also worked on prototyping secure edge networking interface.
-\item \textbf{\textit{Acoustic Rapid COTS Insertion (ARCI)}} Worked on data storage system tasks including implementation of XML-based data parser for sonar data. Also analyzed and remedied kernel panics in Red Hat Enterprise Linux 4 and 5.
-\item \textbf{\textit{Focused Acoustics Naval Tactical Array (FANTA)}} Project was a result of winning internal R\&D money based off of a white paper that I worked on with a few other young employees. Worked with 3 other young engineers to simulate, build, and test prototype for novel sonar device. Performed simulations using MATLAB and helped fabricate prototype. Project was performed during off-hours from ARCI.
-\item \textbf{\textit{Engineering Leadership Development Program}} Selected as part of a group of young engineers to build leadership abilities through additional education and project work.
-\end{rSubsection}
+    \begin{rSubsection}{Lockheed Martin}{June, 2008 - November, 2011}{Associate Engineer}{Mitchel Field, NY / Manassas, VA}
+    \item \textbf{\textit{Information Assurance}} Helped incorporate DoD information security requirements into next-generation submarine navigator.  Also worked on prototyping secure edge networking interface.
+    \item \textbf{\textit{Acoustic Rapid COTS Insertion (ARCI)}} Worked on data storage system tasks including implementation of XML-based data parser for sonar data. Also analyzed and remedied kernel panics in Red Hat Enterprise Linux 4 and 5.
+    \item \textbf{\textit{Focused Acoustics Naval Tactical Array (FANTA)}} Project was a result of winning internal R\&D money based off of a white paper that I worked on with a few other young employees. Worked with 3 other young engineers to simulate, build, and test prototype for novel sonar device. Performed simulations using MATLAB and helped fabricate prototype. Project was performed during off-hours from ARCI.
+    \item \textbf{\textit{Engineering Leadership Development Program}} Selected as part of a group of young engineers to build leadership abilities through additional education and project work.
+    \end{rSubsection}
 
 \end{rSection}
 
@@ -70,20 +75,18 @@ B.S. in Electrical \& Computer Engineering \\
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{Technical Strengths}
-
-\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-Languages & Java, PHP, Python, Javascript, MATLAB, \\
-& C, Bash/zsh scripting \\
-Operating Systems & Linux (Ubuntu, RHEL, CentOS), Mac OS X, \\
-& Windows \\
-Protocols \& APIs & XML, JSON, REST \\
-Databases \& Caches & MongoDB, HBase, Redis, Memcache, PostgreSQL \\
-Tools & Amazon Web Services, Git, Maven, \\ 
-& Vim, DOORS, Django, VirtualBox, \\
-& Apache Solr/Lucene, Vagrant, XUnit testing \\
-Development Methodologies & Agile
-\end{tabular}
-
+    \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+    Languages & Java, PHP, Python, Javascript, MATLAB, \\
+    & C, Bash/zsh scripting \\
+    Operating Systems & Linux (Ubuntu, RHEL, CentOS), Mac OS X, \\
+    & Windows \\
+    Protocols \& APIs & XML, JSON, REST \\
+    Databases \& Caches & MongoDB, HBase, Redis, Memcache, PostgreSQL \\
+    Tools & Amazon Web Services, Git, Maven, \\ 
+    & Vim, DOORS, Django, VirtualBox, \\
+    & Apache Solr/Lucene, Vagrant, XUnit testing \\
+    Development Methodologies & Agile
+    \end{tabular}
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
@@ -107,17 +110,16 @@ Development Methodologies & Agile
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{Honors, Awards, \& Certifications}
-\begin{tabular}{ @{} >{}l @{\hspace{18ex}} r }
-Lockheed Martin Engineering Leadership Development Program Graduate & 2011\\
-Six Sigma Green Belt & 2010 \\
-Lockheed Martin "Innovate in '08" R\&D Competition Winner (for FANTA) & 2008 \\
-Formula SAE World Champion (Cornell University Racing) & 2005 \\
-Formula SAE Bosch Engine Management Award & 2005 \\
-McMullen Dean Scholarship & 2004 \\
-A.P. Scholar, with Distinction & 2004 \\
-Eagle Scout & 2003
-\end{tabular}
-
+    \begin{tabular}{ @{} >{}l @{\hspace{18ex}} r }
+    Lockheed Martin Engineering Leadership Development Program Graduate & 2011\\
+    Six Sigma Green Belt & 2010 \\
+    Lockheed Martin "Innovate in '08" R\&D Competition Winner (for FANTA) & 2008 \\
+    Formula SAE World Champion (Cornell University Racing) & 2005 \\
+    Formula SAE Bosch Engine Management Award & 2005 \\
+    McMullen Dean Scholarship & 2004 \\
+    A.P. Scholar, with Distinction & 2004 \\
+    Eagle Scout & 2003
+    \end{tabular}
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
