@@ -16,27 +16,25 @@
 % Let's get some links going
 \usepackage{hyperref}
 \hypersetup{
-	colorlinks=true,
-	urlcolor=blue
+  colorlinks=true,
+  urlcolor=blue
 }
 \name{Matthew Guindin}
 \address{\href{mailto:m@guindin.com}{m@guindin.com} \\ \href{https://github.com/mguindin}{Github: mguindin}}
-\address{(347)~$\cdot$~878~$\cdot$~6424 \\ New York, NY}
+\address{(718)~$\cdot$~938~$\cdot$~6424 \\ New York, NY}
 
 \begin{document}
 
 %----------------------------------------------------------------------------------------
-%	EDUCATION SECTION
+%	SUMMARY SECTION
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{Education}
-
-{\bf Cornell University} \hfill {\em May, 2011} \\ 
-M.Eng. in Systems Engineering \\
-Completed M.Eng. while working full time at Lockheed Martin \\
-
-{\bf Cornell University} \hfill {\em May, 2008} \\ 
-B.S. in Electrical \& Computer Engineering \\
+\begin{rSection}{Summary}
+  I am an engineer with experience building large-scale distributed backend
+  systems looking for an opportunity to work in a high performance team
+  comprised of industry thought leaders and high potential engineers. My career
+  focus has been on low-latency, high throughput systems and I have a proven
+  track record of developing and bringing successful systems to production.
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
@@ -45,85 +43,73 @@ B.S. in Electrical \& Computer Engineering \\
 
 \begin{rSection}{Experience}
 
-    \begin{rSubsection}{HookLogic}{March, 2014 - Present}{Data Platform Engineer}{New York, NY}
-    \item \textbf{\textit{Streaming Data Pipeline}} Migrated existing batch data pipeline (in Hadoop MR and Hive) to be streaming using Apache Storm, Golang, and Amazon Kinesis.  Pipeline has multiple topologies handling over 20MBps of data ingested.  Changes reduced ledger latency from 20 minutes to a few seconds.  Development of project also involved incorporating Jenkins CI, Artifactory for private Maven JARs, and leveraging Docker for local end-to-end testing.
-    \item \textbf{\textit{HBase Integration}} Incorporating HBase into data pipeline workflows with Hive and Hadoop for realtime querying and journaled data storage.
-    \item \textbf{\textit{Backend Infrastructure}} Part of getting the above projects implemented involved spinning up clusters in Amazon EC2 as well as setting up VPCs and infrastructure monitoring.  
-   
-    \end{rSubsection}
-%-----------------------------------------------
+  \begin{rSubsection}{Amazon Web Services}{May, 2018 - Present}{Sr. Big Data Consultant}{New York, NY}
+  \item \textbf{\textit{Professional Services}} Help customers adopt
+    AWS and migrate from existing on-premises data centers.  I focus on Big
+    Data problems helping customers build serverless data lakes using AWS Glue,
+    EMR, and S3.  I also work with customers building streaming applications
+    leveraging Amazon Kinesis and Apache Spark Streaming.
 
-    \begin{rSubsection}{Sailthru}{November, 2011 - February, 2014}{Developer}{New York, NY}
-    \item \textbf{Backend Development} Most of my time at Sailthru was spent as a member of the Backend development team which involved improving our custom emailing software, templating software, job processing, and user data querying tools.  This work was done in PHP, Java, and used MongoDB and HBase for data storage.  Select projects included below:
-    \item \textbf{\textit{HBase Integration}} Introduced internal service API to access an important 500 million+ document MongoDB collection and converted the collection to HBase to take advantage of cheaper hardware, improved query performance, and data storage decoupling through the service API.
-    \item \textbf{\textit{Campaign Statistics}} Improved legacy campaign statistics performance by up to 70\% by investigating and refactoring unnecessary data movement and utilization. Designed and coordinated completely refactoring the old job-oriented statistics process into 'real-time' event-oriented statistics collection, eliminating a previously unsightly and painful delay between campaign sending and campaign statistics calculations.
-    \item \textbf{\textit{Query}} Fleshed out query tool for segmenting clients' profiles (users) using a variety of criteria based off of client-submitted as well as Sailthru-derived data. I also ported the original PHP variant into more a efficient Java version while maintaining all existing functionality and adding new features.
-    \item \textbf{\textit{Development Sandbox}} Created one-line development environment creation/instantiation using Vagrant, Chef, and custom REST APIs as well as an automated backend database sanitization system to get new developers coding within an hour of getting access to Sailthru repos and facilities.
-    \item \textbf{\textit{Dev-Ops}} Part of my role within Sailthru involved investigating and planning software and system architecture, developing a wide variety of internal tools (like the sandbox above), as well as performing occasional spot maintenance and performance analysis of our existing infrastructure.
-    \end{rSubsection}
+  \end{rSubsection}
+  %-----------------------------------------------
 
-%------------------------------------------------
+  \begin{rSubsection}{Movable Ink}{August, 2015 - May, 2018}{Senior Engineer}{New York, NY}
+  \item \textbf{\textit{Signals}} Architected and implemented real-time distributed systems for ingesting and processing behavioral data for content creation and display. System comprised of microservices written in Golang and streaming batch processing in Spark Streaming.
+  \item \textbf{\textit{Data Engineering}} Migrated daily ETL jobs for cleaning data and generating reports from legacy single-threaded processes to Spark and Hive. Processing time for one business-critical job was reduced from 40 hours to 10 minutes.
+  \item \textbf{\textit{Backend Infrastructure}} Made extensive use of AWS EMR and EC2 in getting these systems off the ground. Also introduced Docker for development and testing of our applications. 
 
-    \begin{rSubsection}{Lockheed Martin}{June, 2008 - November, 2011}{Associate Engineer}{Mitchel Field, NY / Manassas, VA}
-    \item \textbf{\textit{Information Assurance}} Helped incorporate DoD information security requirements into next-generation submarine navigator.  Also worked on prototyping secure edge networking interface.
-    \item \textbf{\textit{Acoustic Rapid COTS Insertion (ARCI)}} Worked on data storage system tasks including implementation of XML-based data parser for sonar data. Also analyzed and remedied kernel panics in Red Hat Enterprise Linux 4 and 5.
-    \item \textbf{\textit{Focused Acoustics Naval Tactical Array (FANTA)}} Project was a result of winning internal R\&D money based off of a white paper that I worked on with a few other young employees. Worked with 3 other young engineers to simulate, build, and test prototype for novel sonar device. Performed simulations using MATLAB and helped fabricate prototype.
-    \item \textbf{\textit{Engineering Leadership Development Program}} Selected as part of a group of young engineers to build leadership abilities through additional education and project work.
-    \end{rSubsection}
+
+  \end{rSubsection}
+  %-----------------------------------------------
+
+  \begin{rSubsection}{HookLogic}{March, 2014 - July, 2015}{Data Platform Engineer}{New York, NY}
+  \item \textbf{\textit{Streaming Data Pipeline}} Migrated existing batch data pipeline (in Hadoop MR and Hive) to be streaming using Apache Storm, Golang, and Amazon Kinesis.  Pipeline has multiple topologies handling over 20MBps of data ingested.  Changes reduced ledger latency from 20 minutes to a few seconds.  Development of project also involved incorporating Jenkins CI, Artifactory for private Maven JARs, and leveraging Docker for local end-to-end testing.
+  \item \textbf{\textit{HBase Integration}} Incorporating HBase into data pipeline workflows with Hive and Hadoop for realtime querying and journaled data storage.
+  \item \textbf{\textit{Backend Infrastructure}} Part of getting the above projects implemented involved spinning up clusters in Amazon EC2 as well as setting up VPCs and infrastructure monitoring.  
+
+  \end{rSubsection}
+  %-----------------------------------------------
+
+  \begin{rSubsection}{Sailthru}{November, 2011 - February, 2014}{Developer}{New York, NY}
+  \item \textbf{Backend Development} Most of my time at Sailthru was spent as a member of the Backend development team which involved improving our custom emailing software, templating software, job processing, and user data querying tools. This work was done in PHP, Java, and used MongoDB and HBase for data storage.
+  \end{rSubsection}
+
+  %------------------------------------------------
+
+  \begin{rSubsection}{Lockheed Martin}{June, 2008 - November, 2011}{Associate Engineer}{Mitchel Field, NY / Manassas, VA}
+  \item \textbf{\textit{US Navy Systems}} Helped incorporate DoD information security requirements into next-generation submarine navigator. A lot of my time in this role involved interfacing with the multiple Navy customers we had to get them in agreement with our design decisions. I also worked on prototyping a secure edge networking interface. Part of an earlier role involved data storage system tasks including implementation of XML-based data parser for sonar data. Lastly, I spent time analyzing and fixing kernel panics in Red Hat Enterprise Linux 4 and 5.
+  \item \textbf{\textit{Engineering Leadership Development Program}} Selected
+    as part of a group of young engineers to build leadership abilities through
+    additional education and project work. Wrote white paper on novel sonar
+    system and helped with R\&D as part of winning grant from LM.
+  \end{rSubsection}
 
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
-%	TECHNICAL STRENGTHS SECTION
+%	EDUCATION SECTION
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{Technical Strengths}
-    \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-    Languages & Java, PHP, Python, Javascript, MATLAB, \\
-    & C, Go, Bash/zsh scripting \\
-    Operating Systems & Linux (Ubuntu, RHEL, CentOS), Mac OS X, \\
-    & Windows \\
-    Protocols \& APIs & XML, JSON, REST \\
-    Databases \& Caches & MongoDB, Hive, HBase, Redis, Memcache, \\
-    & Microsoft SQL Server, PostgreSQL \\
-    Tools & Amazon Web Services, Git, Maven, \\ 
-    & Vim, Docker, Django, VirtualBox, \\
-    & Apache Solr/Lucene, Vagrant, XUnit testing \\
-    Development Methodologies & Agile
-    \end{tabular}
+\begin{rSection}{Education}
+
+  {\bf Cornell University} \\ 
+  M.Eng. in Systems Engineering \\
+
+  {\bf Cornell University} \\ 
+  B.S. in Electrical \& Computer Engineering \\
 \end{rSection}
-
 %----------------------------------------------------------------------------------------
-%   VOLUNTEER SECTION	
-%----------------------------------------------------------------------------------------
-
-\begin{rSection}{Volunteer Roles}
-    \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}}r }
-    Delta Tau Delta, Beta Omicron Chapter \textit{Trustee} & Fall, 2013 - Present \\
-    Cornell Alumni Admissions Ambassador Network & Fall, 2011 - Present \\
-    FIRST Robotics NYC Regional & Fall, 2009 - Spring, 2011 \\
-    FIRST Robotics Team 358, Carle Place High School \textit{Mentor} & Fall, 2009 - Spring, 2011 \\
-    FIRST Robotics Team 2068, Osbourn Park High School \textit{Mentor} & Fall, 2008 - Spring, 2009 \\
-    \end{tabular}
-\end{rSection}
-
+%	STRENGTHS SECTION
 %----------------------------------------------------------------------------------------
 
-%----------------------------------------------------------------------------------------
-%   HONORS, AWARDS, AND CERTIFICATIONS SECTION	
-%----------------------------------------------------------------------------------------
-
-\begin{rSection}{Honors, Awards, \& Certifications}
-    \begin{tabular}{ @{} >{}l @{\hspace{18ex}} r }
-    Lockheed Martin Engineering Leadership Development Program Graduate & 2011\\
-    Six Sigma Green Belt & 2010 \\
-    Lockheed Martin "Innovate in '08" R\&D Competition Winner (for FANTA) & 2008 \\
-    Formula SAE World Champion (Cornell University Racing) & 2005 \\
-    Formula SAE Bosch Engine Management Award & 2005 \\
-    McMullen Dean Scholarship & 2004 \\
-    A.P. Scholar, with Distinction & 2004 \\
-    Eagle Scout & 2003
-    \end{tabular}
+\begin{rSection}{Strengths}
+  \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+    Languages & Java, Scala, Go, Python, Ruby \\
+    Databases \& Caches & Cassandra, PostgreSQL, Hive, Redis \\
+    Tools & Amazon Web Services, Apache Spark, Git \\
+    & Maven, SBT, Vim, Docker \\
+    Eagle Scout
+  \end{tabular}
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
